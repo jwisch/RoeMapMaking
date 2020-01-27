@@ -35,7 +35,7 @@ out<-lapply(bc, CleanItUp)
 write.csv(result, "C:/Users/julie.wisch/Documents/RoeCollab/Destinations.csv")
 
 library(googleway)
-api_key <- 'AIzaSyA5FUPHv6mj70ENpeuwxOQGX7TfOagh-FA'
+api_key <- OMITTED
 
 google_places(location = c(result$Latitude[1],result$Longitude[1]),
               radius = 1,
